@@ -89,6 +89,7 @@ debug.sf.enable_hwc_vds=1 \
 debug.sf.hw=0 \
 debug.cpurend.vsync=false \
 debug.sf.recomputecrop=0 \
+debug.renderengine.backend=threaded \
 dev.pm.dyn_samplingrate=1 \
 persist.demo.hdmirotationlock=false \
 persist.hwc.enable_vds=1 \
@@ -98,6 +99,7 @@ ro.qualcomm.cabl=0 \
 ro.sf.lcd_density=420 \
 ro.vendor.display.cabl=2 \
 sdm.debug.disable_skip_validate=1 \
+vendor.display.disable_scaler=1 \
 vendor.display.disable_skip_validate=1 \
 vendor.gralloc.enable_fb_ubwc=1
 
